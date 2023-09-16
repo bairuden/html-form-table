@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <label for="fullname">Fullname</label>
+    <input type="text" name="fullname" id="fullname">
+  </div>
+  <div>
+    <label for="mail">Email:</label>
+    <input type="mail" name="mail" id="mail">
+  </div>
+  <div>
+    <label for=password> Pssword</label>
+    <input type="mail" name="password" id="password">
+  </div>
+  <div>
+    <label for="dob"> Date of Birth</label>
+    <input type="Date" name="dob" id="dob">
+  </div>
+  <div>
+    <label for="gender"> Gender:</label>
+    <input type="radio" name="gender" id="gender" value="female">
+    <input type="radio" name="gender" id="gender" value="male">
+  </div>
+  <div>
+    <label for="gender"> Gender:</label>
+    <input type="checkbox" name="Religion" id="religion" value="islam">//valugulu show korena keno?
+    <input type="checkbox" name="Religion" id="religion" value="hindhu">
+    <input type="checkbox" name="Religion" id="religion" value="buddist">
+  </div>
+  <div>
+    <label for="message">Message:</label>
+    <textarea cols="20" rows="10"></textarea>
+  </div>
+  <div>
+    <form action="\action_page.php">//form jokon submit korbo jekane submit korbo oitai action
+      <label for="fname">First name</label>
+      <input type="text" name="fname" value="Lima"><br>
+      <input type="submit" value="submit">
+  </div>
+  <div>
+    <label>Choose your photo</label>
+    <input type="file" name="photo" id="photo">
+  </div><br>
+  </form>
+  <form action="\action.php" method="GET">
+    <label for="lname"> Last name</label>
+    <input type="text" name="lname">
+    <input type="submit" value="submit">
+  </form>
+</body>
+
+</html>
